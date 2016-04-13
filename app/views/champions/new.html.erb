@@ -1,0 +1,18 @@
+<h1>Champions#new</h1>
+<%= form_for @champion do |f|%>
+  <div class="field">
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+  </div>
+  <div class="field">
+      <%= f.label :protrait %>
+      <%= f.text_field :protrait %>
+  </div>
+  <div class="field">
+      <%= f.label :ip %>
+      <%= f.number_field :ip %>
+  </div>
+  <div class="submit">
+      <%= f.submit %>
+  </div>
+<% end %>

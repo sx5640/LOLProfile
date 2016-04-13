@@ -1,0 +1,11 @@
+<h1>Champions' Hall</h1>
+
+<div class="champion_list">
+  <% @champions.each do |champion| %>
+  <h3><%= champion.name %></h3>
+  <h4>IP: <%= champion.ip %></h4>
+  <p>
+    <img src="<%= champion.protrait %>"/>
+  </p>
+  <% end %>
+</div>

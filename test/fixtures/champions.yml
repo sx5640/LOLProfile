@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  protrait: MyText
+  ip: 1
+
+two:
+  name: MyText
+  protrait: MyText
+  ip: 1
